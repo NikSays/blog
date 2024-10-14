@@ -1,0 +1,4 @@
+baseURL = 'https://niksaysit.md/'
+languageCode = 'en-us'
+title = 'NikSaysIT Blog'
+theme = 'hugo-bearblog'
