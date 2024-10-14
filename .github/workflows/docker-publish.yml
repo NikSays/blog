@@ -41,5 +41,3 @@ jobs:
           context: .
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          cache-from: type=registry,ref=${{ steps.meta.outputs.tags }}:cache
-          cache-to: type=registry,ref=${{ steps.meta.outputs.tags }}:cache,mode=max
