@@ -1,4 +1,4 @@
-FROM alpine:3.20 as hugo
+FROM alpine:3.20 AS hugo
 RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo
 
 WORKDIR /blog
